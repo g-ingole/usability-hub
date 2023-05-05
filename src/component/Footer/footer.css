@@ -1,0 +1,37 @@
+.footer{
+    background-color: #ebf2fa;
+}
+.footer-links{
+    display: block;
+    flex-direction: column;
+}
+.footer-links h6{
+    color: #577592;
+}
+.footer-content{
+padding-top: 40px;
+}
+.footer-banner{
+    background-color: #b9cde4;
+
+}
+.footer-banner-content{
+    color: #183b56;
+    font-weight: 500;
+    padding:20px 100px 20px 100px;
+}
+.footer-logo{
+    width: 150px;
+
+}
+@media (min-width:300px) and (max-width:768px){
+    .footer-banner{
+        text-align: center;
+    }
+    .footer-content{
+        text-align: center;
+    }
+    .footer-logo{
+        margin: 0 auto;
+    }
+}

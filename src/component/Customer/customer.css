@@ -1,0 +1,104 @@
+.grid-img{
+  max-width: 90%;
+}
+.testmonial-logo1{
+    width: 100px;
+    padding: 20px 0 20px ;
+    display: inline-block;
+}
+.testimonial1{
+    background-image: url(../../assets/testimonial-logo.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 64px;
+    background-attachment: scroll;
+    color: #183b56;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+     /* margin-top: -15px; */
+     /* margin-left: -30px;  */
+     padding-top: 15px;
+    padding-left: 30px;  
+}
+.person-name1{
+     display: block;
+        color: #183b56;
+        padding-left: 10px;
+        font-family: Averta PE,sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+   
+    .person-name p{
+        color: #577592;
+    }
+    .testimo-grid{
+    padding-top: 50px;
+
+     }
+     .testimonial-para{
+        width: 300px;
+        line-height: 1.8;
+        font-weight: 500;
+     }
+     .logo-div{
+        display: flex;
+     }
+     .logo-div img{
+        width:100px;
+        margin: 50px;
+     }
+     .logo-div2{
+        display: flex;
+     }
+     .logo-div2 img{
+        width:80px;
+        height: 50px;
+        margin: 60px;
+     }
+      .logo-div4{
+        display: flex;
+     }
+     .logo-div4 img{
+        width:140px;
+        height: 50px;
+        margin: 60px;
+     }
+     .logo-div3{
+        display: flex;
+     }
+     .logo-div3 img{
+        width:160px;
+        height: 50px;
+        margin: 40px;
+     }
+     @media (min-width:300px) and (max-width:767px){
+        .logo-div img{
+            width:100px;
+            margin: 50px;
+         }
+     }
+     @media (min-width:768px) and (max-width:991px){
+        .logo-div img{
+            width:60px;
+            margin: 30px;
+         }
+         .logo-div2 img{
+            width:50px;
+            height: 50px;
+            margin: 30px;
+         }
+         .logo-div3 img{
+            width:80px;
+            height: 50px;
+            margin: 20px;
+         }
+         .logo-div4 img{
+            width:80px;
+            height: 50px;
+            margin: 30px;
+         }
+     }

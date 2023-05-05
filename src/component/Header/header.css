@@ -1,0 +1,42 @@
+.banner{
+    background-image: url(../../assets/back.png);
+    background-color:#e74694;
+    background-size: 300px;
+    /* background-position: 0 0; */
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    padding: 10px;  
+}
+.icon{
+    padding-left: 10px;
+}
+.logo{
+    width: 150px;
+}
+.tag{
+    background-color: lightgray;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.signin-btn:hover{
+    background-color: white;
+    color: blue;
+}
+.signin-btn{
+    color: black;
+    font-weight: 500;
+}
+@media (min-width:300px) and (max-width:991px){
+    .tag{
+        display: none;
+    }
+}
